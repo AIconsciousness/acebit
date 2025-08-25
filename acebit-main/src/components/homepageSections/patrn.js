@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 // Import real faculty photos
-import jituhod from "../../assets/images/faculty/jituhod.webp";
+import nishikant from "../../assets/images/faculty/nishikant.webp";
 import pksharma from "../../assets/images/faculty/pksharma.webp";
 import prashantmalvia from "../../assets/images/faculty/prashantmalvia.webp";
 import pankajrai from "../../assets/images/faculty/pankajrai.webp";
@@ -41,11 +41,11 @@ const PatronageSection = () => {
     },
     {
       id: 2,
-      name: "Prof. Jitu Kujur",
+      name: "Prof. Nishikant Kisku",
       position: "Professor",
       institution: "Civil Engineering, BIT Sindri",
       location: "Dhanbad, Jharkhand",
-      image: jituhod,
+      image: nishikant,
       quote: "I extend heartfelt gratitude to the professors and students whose dedicated efforts and countless hours organizing activities have bestowed significance upon this association.",
       rating: 5,
       color: "from-emerald-600 via-teal-600 to-cyan-600"
