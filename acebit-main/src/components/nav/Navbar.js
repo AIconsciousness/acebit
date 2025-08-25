@@ -76,7 +76,7 @@ const Navbar = () => {
               <div className={`text-xs sm:text-sm lg:text-sm font-medium ${
                 scrolled ? 'text-slate-600' : 'text-blue-100'
               }`}>
-                Association of Civil Engineers
+                Association Of Civil Engineers
               </div>
             </div>
           </div>

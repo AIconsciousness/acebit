@@ -8,29 +8,29 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 // 2K21 Team Images
-import president from "../../assets/images/team 2k21/princemichal.jpg"
-import vicePresident1 from "../../assets/images/team 2k21/Gautam.jpg"
-import vicePresident2 from "../../assets/images/team 2k21/suman_topo.jpg"
-import techhead from "../../assets/images/team 2k21/kunal.jpg";
-import js1 from "../../assets/images/team 2k21/prabhat.jpg"
-import js2 from "../../assets/images/team 2k21/LakshmiKumari.jpg";
-import mh from "../../assets/images/team 2k21/SagarSaurabh.jpg";
-import trsr from "../../assets/images/team 2k21/adityanand.jpg";
-import jtrsr from "../../assets/images/team 2k21/anurag.jpg";
-import ch from "../../assets/images/team 2k21/mehartalat.jpg"
-import rd from "../../assets/images/team 2k21/abhipriya.jpg"
-import gate from "../../assets/images/team 2k21/shivam.jpg"
-import gate2 from "../../assets/images/team 2k21/sagarsaw.jpg"
-import edtorl from "../../assets/images/team 2k21/khusboo.jpg"
-import alumini from "../../assets/images/team 2k21/rudra.jpeg"
-import alumini2 from "../../assets/images/team 2k21/rajshree.jpg"
-import pro from "../../assets/images/team 2k21/amarnath.jpg"
-import pro2 from "../../assets/images/team 2k21/vicky.jpg"
-import sh from "../../assets/images/team 2k21/ashish_jha.jpg";
-import sh2 from "../../assets/images/team 2k21/saurav.jpeg";
-import eph from "../../assets/images/team 2k21/ayushi.jpg";
-import eph2 from "../../assets/images/team 2k21/sanya_deo.jpg";
-import sc from "../../assets/images/team 2k21/ajaymahato.jpeg";
+// import president from "../../assets/images/team 2k21/princemichal.jpg"
+// import vicePresident1 from "../../assets/images/team 2k21/Gautam.jpg"
+// import vicePresident2 from "../../assets/images/team 2k21/suman_topo.jpg"
+// import techhead from "../../assets/images/team 2k21/kunal.jpg";
+// import js1 from "../../assets/images/team 2k21/prabhat.jpg"
+// import js2 from "../../assets/images/team 2k21/LakshmiKumari.jpg";
+// import mh from "../../assets/images/team 2k21/SagarSaurabh.jpg";
+// import trsr from "../../assets/images/team 2k21/adityanand.jpg";
+// import jtrsr from "../../assets/images/team 2k21/anurag.jpg";
+// import ch from "../../assets/images/team 2k21/mehartalat.jpg"
+// import rd from "../../assets/images/team 2k21/abhipriya.jpg"
+// import gate from "../../assets/images/team 2k21/shivam.jpg"
+// import gate2 from "../../assets/images/team 2k21/sagarsaw.jpg"
+// import edtorl from "../../assets/images/team 2k21/khusboo.jpg"
+// import alumini from "../../assets/images/team 2k21/rudra.jpeg"
+// import alumini2 from "../../assets/images/team 2k21/rajshree.jpg"
+// import pro from "../../assets/images/team 2k21/amarnath.jpg"
+// import pro2 from "../../assets/images/team 2k21/vicky.jpg"
+// import sh from "../../assets/images/team 2k21/ashish_jha.jpg";
+// import sh2 from "../../assets/images/team 2k21/saurav.jpeg";
+// import eph from "../../assets/images/team 2k21/ayushi.jpg";
+// import eph2 from "../../assets/images/team 2k21/sanya_deo.jpg";
+// import sc from "../../assets/images/team 2k21/ajaymahato.jpeg";
 
 // 2K22 Team Images
 import abhay from "../../assets/images/2k22/abhay.jpeg";
@@ -74,7 +74,7 @@ import sahil from "../../assets/images/2k22/sahil.jpeg";
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
-  const [selectedBatch, setSelectedBatch] = useState('2K21'); // Default to 2K21
+  const [selectedBatch, setSelectedBatch] = useState('2K22'); // Default to 2K21
 
   const settings = {
     dots: true,
@@ -116,147 +116,147 @@ function App() {
     return () => document.removeEventListener('keydown', onKey);
   }, [isModalOpen]);
 
-  // 2K21 Data
-  const data2K21 = [
-    {
-      name: `Prince Michael Milton `,
-      img: (president),
-      review: `President`,
-      url: ('https://www.linkedin.com/in/prince-michael-1b822a25b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Gautam Kumar`,
-      img: (vicePresident1),
-      review: `Vice President`,
-      url: ('http://www.linkedin.com/in/gautam-kumar-m20')
-    },
-    {
-      name: `Suman Toppo `,
-      img: (vicePresident2),
-      review: `Vice President`,
-      url: ('https://www.linkedin.com/in/suman-toppo-6676b723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Ajay Mahato`,
-      img: (sc),
-      review: `Secretary`,
-      url: ('https://www.linkedin.com/in/ajay-mahato-8a7446230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Prabhat Kumar Ravidas `,
-      img: (js1),
-      review: `Joint-Secretary`,
-      url: ('https://www.linkedin.com/in/anurag-kumar-19722422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Laxmi Kumari`,
-      img: (js2),
-      review: `Joint-Secretary`,
-      url: ('https://www.linkedin.com/in/lakshmi-kumari-7461a5254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Aditya Anand `,
-      img: (trsr),
-      review: `Treasurer`,
-      url: ('http://linkedin.com/in/aditya-anand-7529552a9')
-    },
-    {
-      name: `Anurag Kumar`,
-      img: (jtrsr),
-      review: `Joint-Treasurer`,
-      url: ('https://www.linkedin.com/in/anurag-kumar-19722422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Kunal Kumar Ram `,
-      img: (techhead),
-      review: `Technical Head`,
-      url: ('https://www.linkedin.com/in/kunal-kumar-8b84a7230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Sagar saurabh`,
-      img: (mh),
-      review: `Marketing-Head`,
-      url: ('https://www.linkedin.com/in/saurabh-pratap-singh-9a154a23a?trk=contact-info')
-    },
-    {
-      name: `Abhipriya`,
-      img: (rd),
-      review: `Research & Development Head`,
-      url: ('https://www.linkedin.com/in/abhipriya-dubey-82b905230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Shivam Mishra`,
-      img: (gate),
-      review: `GATE & ESE Forum Head`,
-      url: ('https://www.linkedin.com/in/shivam-mishra-3a5a5b28a')
-    },
-    {
-      name: `Sagar kumar Saw`,
-      img: (gate2),
-      review: `GATE & ESE Forum Head`,
-      url: ('https://in.linkedin.com/in/sagar-kumar-saw-794094268')
-    },
-    {
-      name: `Rudra Pratap Sharma`,
-      img: (alumini),
-      review: `Alumni Relation & Joint PRO`,
-      url: ('https://www.linkedin.com/in/rudra-pratap-0193b325a/')
-    },
-    {
-      name: `Rajshree`,
-      img: (alumini2),
-      review: `Alumni Relation & Joint PRO`,
-      url: ('https://www.linkedin.com/in/raj-shree-508709230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Khushboo Mehta`,
-      img: (edtorl),
-      review: `Editorial Head`,
-      url: ('https://www.linkedin.com/in/khushboo-m-3a0160232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Amarnath upadhyay `,
-      img: (pro),
-      review: `Public Relation Officer`,
-      url: ('https://www.linkedin.com/in/amarnath-upadhyay-a4a113241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Vicky Kumar`,
-      img: (pro2),
-      review: `Public Relation Officer`,
-      url: ('https://www.linkedin.com/in/vicky-kumar-969817239/')
-    },
-    {
-      name: `Ashish Kumar Jha `,
-      img: (sh),
-      review: `Sports Head`,
-      url: ('https://www.linkedin.com/in/ashish-kumar-jha-4baaa1231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `Saurav Kumar Verma`,
-      img: (sh2),
-      review: `Sports Head`,
-      url: ('https://www.linkedin.com/in/saurav-kumar-verma-38848923a/')
-    },
-    {
-      name: `Ayushi Kumari `,
-      img: (eph),
-      review: ` Event and Program Head`,
-      url: ('https://www.linkedin.com/in/ayushi-kumari-7a26b823a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `SANYA DEO `,
-      img: (eph2),
-      review: ` Event and Program Head`,
-      url: ('https://www.linkedin.com/in/sanya-deo-b61479236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
-    },
-    {
-      name: `MEHAR TALAT `,
-      img: (ch),
-      review: `Creative Head`,
-      url: ('https://www.linkedin.com/in/mehartalat/')
-    },
-  ];
+  // // 2K21 Data
+  // const data2K21 = [
+  //   {
+  //     name: `Prince Michael Milton `,
+  //     img: (president),
+  //     review: `President`,
+  //     url: ('https://www.linkedin.com/in/prince-michael-1b822a25b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Gautam Kumar`,
+  //     img: (vicePresident1),
+  //     review: `Vice President`,
+  //     url: ('http://www.linkedin.com/in/gautam-kumar-m20')
+  //   },
+  //   {
+  //     name: `Suman Toppo `,
+  //     img: (vicePresident2),
+  //     review: `Vice President`,
+  //     url: ('https://www.linkedin.com/in/suman-toppo-6676b723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Ajay Mahato`,
+  //     img: (sc),
+  //     review: `Secretary`,
+  //     url: ('https://www.linkedin.com/in/ajay-mahato-8a7446230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Prabhat Kumar Ravidas `,
+  //     img: (js1),
+  //     review: `Joint-Secretary`,
+  //     url: ('https://www.linkedin.com/in/anurag-kumar-19722422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Laxmi Kumari`,
+  //     img: (js2),
+  //     review: `Joint-Secretary`,
+  //     url: ('https://www.linkedin.com/in/lakshmi-kumari-7461a5254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Aditya Anand `,
+  //     img: (trsr),
+  //     review: `Treasurer`,
+  //     url: ('http://linkedin.com/in/aditya-anand-7529552a9')
+  //   },
+  //   {
+  //     name: `Anurag Kumar`,
+  //     img: (jtrsr),
+  //     review: `Joint-Treasurer`,
+  //     url: ('https://www.linkedin.com/in/anurag-kumar-19722422b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Kunal Kumar Ram `,
+  //     img: (techhead),
+  //     review: `Technical Head`,
+  //     url: ('https://www.linkedin.com/in/kunal-kumar-8b84a7230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Sagar saurabh`,
+  //     img: (mh),
+  //     review: `Marketing-Head`,
+  //     url: ('https://www.linkedin.com/in/saurabh-pratap-singh-9a154a23a?trk=contact-info')
+  //   },
+  //   {
+  //     name: `Abhipriya`,
+  //     img: (rd),
+  //     review: `Research & Development Head`,
+  //     url: ('https://www.linkedin.com/in/abhipriya-dubey-82b905230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Shivam Mishra`,
+  //     img: (gate),
+  //     review: `GATE & ESE Forum Head`,
+  //     url: ('https://www.linkedin.com/in/shivam-mishra-3a5a5b28a')
+  //   },
+  //   {
+  //     name: `Sagar kumar Saw`,
+  //     img: (gate2),
+  //     review: `GATE & ESE Forum Head`,
+  //     url: ('https://in.linkedin.com/in/sagar-kumar-saw-794094268')
+  //   },
+  //   {
+  //     name: `Rudra Pratap Sharma`,
+  //     img: (alumini),
+  //     review: `Alumni Relation & Joint PRO`,
+  //     url: ('https://www.linkedin.com/in/rudra-pratap-0193b325a/')
+  //   },
+  //   {
+  //     name: `Rajshree`,
+  //     img: (alumini2),
+  //     review: `Alumni Relation & Joint PRO`,
+  //     url: ('https://www.linkedin.com/in/raj-shree-508709230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Khushboo Mehta`,
+  //     img: (edtorl),
+  //     review: `Editorial Head`,
+  //     url: ('https://www.linkedin.com/in/khushboo-m-3a0160232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Amarnath upadhyay `,
+  //     img: (pro),
+  //     review: `Public Relation Officer`,
+  //     url: ('https://www.linkedin.com/in/amarnath-upadhyay-a4a113241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Vicky Kumar`,
+  //     img: (pro2),
+  //     review: `Public Relation Officer`,
+  //     url: ('https://www.linkedin.com/in/vicky-kumar-969817239/')
+  //   },
+  //   {
+  //     name: `Ashish Kumar Jha `,
+  //     img: (sh),
+  //     review: `Sports Head`,
+  //     url: ('https://www.linkedin.com/in/ashish-kumar-jha-4baaa1231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `Saurav Kumar Verma`,
+  //     img: (sh2),
+  //     review: `Sports Head`,
+  //     url: ('https://www.linkedin.com/in/saurav-kumar-verma-38848923a/')
+  //   },
+  //   {
+  //     name: `Ayushi Kumari `,
+  //     img: (eph),
+  //     review: ` Event and Program Head`,
+  //     url: ('https://www.linkedin.com/in/ayushi-kumari-7a26b823a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `SANYA DEO `,
+  //     img: (eph2),
+  //     review: ` Event and Program Head`,
+  //     url: ('https://www.linkedin.com/in/sanya-deo-b61479236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+  //   },
+  //   {
+  //     name: `MEHAR TALAT `,
+  //     img: (ch),
+  //     review: `Creative Head`,
+  //     url: ('https://www.linkedin.com/in/mehartalat/')
+  //   },
+  // ];
 
   // 2K22 Data
   const data2K22 = [
@@ -268,7 +268,7 @@ function App() {
     },
     {
       name: "Divyanshu Kumar Singh",
-      img: divyanshu,
+      img: divyanshus,
       review: "Vice President",
       url: "#"
     },
@@ -280,7 +280,7 @@ function App() {
     },
     {
       name: "Deepak Prakash",
-      img: deepak,
+      img: deepakp,
       review: "Secretary",
       url: "#"
     },
@@ -334,7 +334,7 @@ function App() {
     },
     {
       name: "Divyanshu Kumar",
-      img: divyanshus,
+      img: divyanshu,
       review: "Alumni In-Charge",
       url: "#"
     },
@@ -398,100 +398,10 @@ function App() {
       review: "Sports Head",
       url: "#"
     },
-    {
-      name: "Deepak Kumar",
-      img: deepakp,
-      review: "Technical Team",
-      url: "#"
-    },
-    {
-      name: "Divyanshu Singh",
-      img: divyanshus,
-      review: "Technical Team",
-      url: "#"
-    },
-    {
-      name: "Kuwar Singh",
-      img: kuwar,
-      review: "Technical Team",
-      url: "#"
-    },
-    {
-      name: "Nitish Kumar",
-      img: nitish,
-      review: "Social Media Team",
-      url: "#"
-    },
-    {
-      name: "Pradeep Kumar",
-      img: pradeep,
-      review: "Social Media Team",
-      url: "#"
-    },
-    {
-      name: "Priyanshu Kumar",
-      img: priyanshu,
-      review: "Social Media Team",
-      url: "#"
-    },
-    {
-      name: "Riya Gupta",
-      img: riyagupta,
-      review: "Social Media Team",
-      url: "#"
-    },
-    {
-      name: "Shipra Kumari",
-      img: shipra,
-      review: "Social Media Team",
-      url: "#"
-    },
-    {
-      name: "Sumit Kumar",
-      img: sumit,
-      review: "Social Media Team",
-      url: "#"
-    },
-    {
-      name: "Jaiprakash Kumar",
-      img: jaipraksh,
-      review: "Editorial Team",
-      url: "#"
-    },
-    {
-      name: "Manish Kumar",
-      img: manish,
-      review: "Editorial Team",
-      url: "#"
-    },
-    {
-      name: "Raviranjan Kumar",
-      img: raviranjan,
-      review: "Editorial Team",
-      url: "#"
-    },
-    {
-      name: "Shubham Singh",
-      img: shubhams,
-      review: "Editorial Team",
-      url: "#"
-    },
-    {
-      name: "Priya Swami",
-      img: swami,
-      review: "Editorial Team",
-      url: "#"
-    },
-    {
-      name: "Sahil Kumar",
-      img: sahil,
-      review: "Editorial Team",
-      url: "#"
-    }
   ];
 
   // Get current data based on selected batch
-  const currentData = selectedBatch === '2K21' ? data2K21 : data2K22;
+  const currentData = selectedBatch === '2K22' ? data2K22 : data2K22;
 
   return (
     <>
@@ -510,7 +420,7 @@ function App() {
         {/* Batch Filter Buttons */}
         <div className="flex justify-center mb-8">
           <div className="bg-slate-800/50 rounded-xl p-1 border border-white/10">
-            <button
+            {/* <button
               onClick={() => setSelectedBatch('2K21')}
               className={`px-6 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
                 selectedBatch === '2K21'
@@ -519,7 +429,7 @@ function App() {
               }`}
             >
               2K21 Batch
-            </button>
+            </button> */}
             <button
               onClick={() => setSelectedBatch('2K22')}
               className={`px-6 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
